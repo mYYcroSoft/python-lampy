@@ -9,7 +9,7 @@ finish = []
 for lamp_t in vstup:
     vastup_3 = list(lamp_t)
     if 'X' in vastup_3:
-
+        print('X > ', vastup_3)
         finish.append(vastup_3)
     else:
             print(vastup_3)
